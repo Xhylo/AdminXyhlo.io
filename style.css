@@ -140,7 +140,7 @@ nav.site ul li {
 }
 
 .overlay:before {
-	background: linear-gradient(#101010 50%, rgba(16, 16, 16, 0.2) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.03));
+	background: linear-gradient(#101010 50%, rgba(16, 16, 16, 0.2) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(255, 0, 0, 0.02), rgba(0, 0, 255, 0.03));
 	background-size: 100% 3px, 6px 100%;
 	content: "";
 	display: block;
@@ -270,7 +270,7 @@ a.button {
 
 input[type=submit]:hover,
 a.button:hover {
-	background: #dd0000;
+	background: #000fdd;
 	color: #383838;
 	opacity: 0.8;
 }
@@ -279,9 +279,9 @@ a.button:hover {
 	
 .scanline {
 	animation: scroll 10s 5s infinite;
-	background: -moz-linear-gradient(top,  rgba(0,221,0,0) 0%, rgb(221, 0, 0) 50%, rgba(0,221,0,0) 100%);
-	background: -webkit-linear-gradient(top,  rgba(0,221,0,0) 0%,rgb(221, 0, 0) 50%,rgba(0,221,0,0) 100%);
-	background: linear-gradient(to bottom,  rgba(0,221,0,0) 0%,rgb(221, 0, 0) 50%,rgba(0,221,0,0) 100%);
+	background: -moz-linear-gradient(top,  rgba(221, 0, 0, 0) 0%, rgb(221, 0, 0) 50%, rgba(221, 0, 0, 0) 100%);
+	background: -webkit-linear-gradient(top,  rgba(221, 0, 0, 0) 0%,rgb(221, 0, 0) 50%,rgba(221, 0, 0, 0) 100%);
+	background: linear-gradient(to bottom,  rgba(221, 0, 0, 0) 0%,rgb(221, 0, 0) 50%,rgba(221, 0, 0, 0) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000dd00', endColorstr='#0000dd00',GradientType=0 );
 	display: block;
 	height: 20px;
